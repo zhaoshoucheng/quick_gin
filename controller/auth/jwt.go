@@ -3,7 +3,7 @@ package auth
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/zhaoshoucheng/hodgepodge/Access"
-	"github.com/zhaoshoucheng/hodgepodge/quick_gin/middleware"
+	"github.com/zhaoshoucheng/quick_gin/middleware"
 )
 
 func token(c *gin.Context) {
